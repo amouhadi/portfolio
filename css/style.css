@@ -626,7 +626,7 @@ section[class*="footer-"]{
 
 }
 .title-container{
-  margin: 20px;
+    margin: 20px;
 }
 .title-container h4{
     color: #c9c9c9;
@@ -697,3 +697,9 @@ section[class*="footer-"]{
     }
 }
 
+.hidden{
+    display: none;
+}
+.contact-response{
+    color: #cc00cc;
+}
