@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- Elham Amouhadi -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+    <script src="js/script.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+<header>
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li class="active">
+                <a href="#home" class="smooth-scroll">Home</a>
+            </li>
+            <li>
+                <a href="#about-page" class="smooth-scroll">About</a>
+            </li>
+            <li>
+                <a href="#skill" class="smooth-scroll">Skills</a>
+            </li>
+            <li>
+                <a href="#resume" class="smooth-scroll">Resume</a>
+            </li>
+            <li>
+                <a href="#contact" class="smooth-scroll">Contact</a>
+            </li>
+            <li>
+                <a href="#projects" class="smooth-scroll">Projects</a>
+            </li>
+
+        </ul>
+    </nav>
+    <!-- Hamburgur menu -->
+    <nav role="navigation">
+
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <li>
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </li>
+                <li class="active">
+                    <a href="#home" class="smooth-scroll">Home</a>
+                </li>
+                <li>
+                    <a href="#about-page" class="smooth-scroll">About</a>
+                </li>
+                <li>
+                    <a href="#skill" class="smooth-scroll">Skills</a>
+                </li>
+                <li>
+                    <a href="#resume" class="smooth-scroll">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact" class="smooth-scroll">Contact</a>
+                </li>
+                <li>
+                    <a href="#projects" class="smooth-scroll">Projects</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+</header>
+<main>
+    <section id="home" class="main background-image" data-stellar-background-ratio="0.6"
+             style="background-position: 0% 0%">
+        <section class="main-intro">
+            <h1> Hi! I'm Elham</h1>
+            <h2> Lets Build Things Amazing and Different Together!</h2>
+
+        </section>
+        <section class="main-social footer-social">
+            <a href="https://www.instagram.com/_lhaam" target="_blank">
+                <img src="images/instagram.png" alt="twitter icons">
+            </a>
+            <a href="https://www.linkedin.com/in/elham-amouhadi-92510139" target="_blank">
+                <img src="images/linkedIn.png" alt="linkedIn icons">
+            </a>
+            <a href="https://www.facebook.com/amouhadi" target="_blank">
+                <img src="images/facebook.png" alt="twitter icons">
+            </a>
+        </section>
+        <section class="main-contact">
+            <a href='#contact' class="smooth-scroll">
+                <button class="button">
+                    Contact Me
+                </button>
+            </a>
+
+        </section>
+    </section>
+
+    <!-- About -->
+    <section id="about-page" class="whiteWrapper wrapper">
+        <div class="section-title-dark">
+            <h1 class="gray">About Me</h1>
+        </div>
+        <div class="title-border"></div>
+        <section id="about">
+            <h2>Passion for Thoughtful UI design, Creative and Eager to Learn</h2>
+            <div class="aboutContainer">
+                <div class="item1">
+                    <p class="col-11 col-m-12">
+                        Hi! I'm Ellie. I'm a Front-end Developer graduated computer science in 2013. </p>
+                    <p>I create
+                        websites and mobile app with greate UX and UI design. I am highly skilled with HTML, CSS, JavaScript, JQuery and Java. I have over three years of experience with these technologies, and I am eager to learn even more technologies to sharpen my skillset.</p>
+                    <p>Outside of work, I enjoys travelling, listening to music and
+                        hiking!
+                    </p>
+                    <p>Do you have project you'd like to discuss? So contact me!</p>
+
+                    <a href='#contact' class="smooth-scroll">
+                        <button class="button">
+                            Contact Me
+                        </button>
+                    </a>
+                </div>
+                <div class="item2 col-4 col-m-3">
+                    <img src="images/portfolioPic.jpg" Alt="me">
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!-- SKILL -->
+    <section class="wrapper grayWrapper" id="skill">
+        <div class="section-title-dark">
+            <h1 class="white">Skills</h1>
+        </div>
+        <div class="title-border"></div>
+        <div class="circleWrapper">
+            <div class="circle"><span>HTML</span></div>
+            <div class="circle"><span>CSS</span></div>
+            <div class="circle"><span>JavaScript</span></div>
+            <div class="circle"><span>JQuery</span></div>
+            <div class="circle"><span>Java</span></div>
+            <div class="circle"><span>Android</span></div>
+            <div class="circle"><span>XML</span></div>
+            <div class="circle"><span>BootStrap</span></div>
+            <div class="circle"><span>AJAX</span></div>
+            <div class="circle"><span>Git</span></div>
+
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="whiteWrapper wrapper">
+        <div class="section-title-dark">
+            <h1 class="gray">Resume</h1>
+        </div>
+        <div class="title-border"></div>
+        <div class="resumeWrapper">
+            <div class="resumeCircle">
+                <img src="images/resume1.png" alt="icon1">
+                <div class="resumeItemRight">
+                    <h3>2014-2016</h3>
+                    <h4>Web Developer</h4>
+                    <p>- Developed the front-end framework for data analysis of municipal construction permitting
+                        including predictive analytics.<br>- Prepared data for data analysis and used prediction method
+                        to predict construction penalty based on Prediction and clustering algorithms.</p>
+                </div>
+            </div>
+            <div class="verticalLine"></div>
+            <div class="resumeCircle">
+                <img src="images/resume2.png" alt="icon2">
+                <div class="resumeItemLeft">
+                    <h3>2013-2014</h3>
+                    <h4>Software Developer</h4>
+                    <p>- Developed a comprehensive accounting application for food warehouse.
+                        <br>- Design and implement the application tools using object oriented C#.</p>
+                </div>
+            </div>
+            <div class="verticalLine"></div>
+            <div class="resumeCircle">
+                <img src="images/education.png" alt="icon3">
+                <div class="resumeItemRight">
+                    <h3>Education</h3>
+                    <p>- Computer Engineering, Bachelor of Science - 2013
+                        <br>- Web Page Development Certification – 2018
+                        <br>- Computer Science Java and Program Mobile Devices – 2018</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WORK -->
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="grayWrapper wrapper">
+        <div class="section-title-dark">
+            <h1 class="white">Contact Me</h1>
+        </div>
+        <div class="title-border"></div>
+        <div class="formContainer">
+            <form id="contact-form" method="post">
+                <div class="row">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Contact"
+                               required>
+                    </div>
+                    <div>
+                        <textarea name="message" class="form-control" id="message" placeholder="Your Message"
+                                  required></textarea>
+                    </div>
+                    <div>
+                        <input type="button" name="submitBtn" class="button" id="submitBtn" value="Submit Now"
+                               title="Submit Your Message">
+                        <input type="reset" name="resetBtn" class="button" id="resetBtn" value="Reset" title="Reset">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="map" style="width: 100%"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="whiteWrapper wrapper">
+        <div class="section-title-dark">
+            <h1 class="gray">Projects</h1>
+        </div>
+        <div class="title-border"></div>
+        <div class="projects-container">
+            <div class="project" onclick="window.location.href='pages/dataAnalysis.html'">
+                <img src="images/rapidMiner.png">
+                <div class="overlay">
+                    <div class="project-text">City Management System</div>
+                </div>
+            </div>
+            <div class="project" onclick="window.location.href='pages/alphabetLearning.html'">
+                <img src="images/ABCQuiz.png">
+                <div class="overlay">
+                    <div class="project-text">Little Ducklings</div>
+                </div>
+            </div>
+
+            <div class="project" onclick="window.location.href='pages/shakeProject.html'">
+                <img src="images/shake-project.jpg">
+                <div class="overlay">
+                    <div class="project-text">Shake!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <section class="footer-social">
+        <a href="https://www.instagram.com/_lhaam" target="_blank">
+            <img src="images/instagram.png" alt="twitter icons">
+        </a>
+        <a href="https://www.linkedin.com/in/elham-amouhadi-92510139" target="_blank">
+            <img src="images/linkedIn.png" alt="linkedIn icons">
+        </a>
+        <a href="https://www.facebook.com/amouhadi" target="_blank">
+            <img src="images/facebook.png" alt="twitter icons">
+        </a>
+    </section>
+    <section class="footer-copyright">
+        <div>
+            &copy; 2018 Design by Elham Amouhadi
+        </div>
+    </section>
+</footer>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- Elham Amouhadi -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <title>Home</title>
+</head>
+<body style="background-color: #eaecef">
+<header>
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                <a href="../index.html#home">Home</a>
+            </li>
+            <li>
+                <a href="../index.html#about-page" class="smooth-scroll">About</a>
+            </li>
+            <li>
+                <a href="../index.html#skill">Skills</a>
+            </li>
+            <li>
+                <a href="../index.html#resume">Resume</a>
+            </li>
+            <li>
+                <a href="../index.html#contact">Contact</a>
+            </li>
+            <li class="active">
+                <a href="../index.html#projects">Projects</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Hamburgur menu -->
+    <nav role="navigation">
+
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <li>
+                    <img src="../images/logo.png" alt="Logo" class="logo">
+                </li>
+                <li>
+                    <a href="../index.html#home">Home</a>
+                </li>
+                <li>
+                    <a href="../index.html#about-page" class="smooth-scroll">About</a>
+                </li>
+                <li>
+                    <a href="../index.html#skill">Skills</a>
+                </li>
+                <li>
+                    <a href="../index.html#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="../index.html#contact">Contact</a>
+                </li>
+                <li class="active">
+                    <a href="../index.html#projects">Projects</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="projects-page" class="col-m-9">
+        <div class="title-container">
+            <div class="section-title-dark">
+                <h2 class="gray">City Management System</h2>
+                <h4>Dolphin Apadana</h4>
+            </div>
+            <div class="title-border2"></div>
+        </div>
+        <div class="job-description">
+            <p>
+                Dolphin Apadana company provides intelligent fleet management solutions and cooperate with two city halls to improve city management system. This project focuses on developing a framework for city hall employee to record and analyze construction penalty of buildings.</p>
+            <p>In this project, we preprocessed, cleaned and sampled the construction data from Excel or XML file for data analysis and then use prediction method to predict construction penalty. We also developed the front-end framework for municipal employee to access these records.</p>
+            <p>Checkout some screenshots of the data mining process below.</p>
+        </div>
+        <div class="sample-project-image">
+            <img src="../images/decisionTree.jpg" alt="decision tree">
+            <img src="../images/rapidMiner.png" alt="rapiminer">
+            <img src="../images/result.png" alt="result">
+        </div>
+        <div class="back-projects"><a href="../index.html#projects">Back To Projects</a></div>
+    </section>
+</main>
+<footer class="footer">
+    <section class="footer-social">
+        <a href="https://www.instagram.com/_lhaam" target="_blank">
+            <img src="../images/instagram.png" alt="twitter icons">
+        </a>
+        <a href="https://www.linkedin.com/in/elham-amouhadi-92510139" target="_blank">
+            <img src="../images/linkedIn.png" alt="linkedIn icons">
+        </a>
+        <a href="https://www.facebook.com/amouhadi" target="_blank">
+            <img src="../images/facebook.png" alt="twitter icons">
+        </a>
+    </section>
+    <section class="footer-copyright">
+        <div>
+            &copy; 2018 Design by Elham Amouhadi
+        </div>
+    </section>
+</footer>
+</body>
+</html>
