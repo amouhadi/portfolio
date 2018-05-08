@@ -697,3 +697,9 @@ section[class*="footer-"]{
     }
 }
 
+.hidden{
+    display: none;
+}
+.contact-response{
+    color: #cc00cc;
+}
